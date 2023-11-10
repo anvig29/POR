@@ -1,0 +1,43 @@
+
+.achievement-heading{
+    text-align: center;
+    padding: 4rem 0 2rem 0;
+
+}
+.achievement-container{
+    max-width: 1040px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 30rem;
+  
+   
+}
+.ach-card{
+    background: #1a1919;
+    padding: 1.2rem 1.2rem;
+    width:400px;
+    height: 550px;
+}
+.ach-title{
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 2rem;
+
+}
+.ach-details p{
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+
+@media screen and (max-width:740px) {
+    .achievement-container{
+        max-width: 80%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+    
+}
